@@ -3,7 +3,7 @@
 // pages/index.jsx
 
 import { useState } from 'react';
-import SitemapForm from './components/SitemapForm';
+import SitemapForm from '../components/SitemapForm';
 import html2canvas from 'html2canvas';
 import { jsPDF } from 'jspdf';
 
