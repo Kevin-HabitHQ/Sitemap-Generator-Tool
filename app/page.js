@@ -1,13 +1,13 @@
 "use client";
 
-// pages/index.jsx
+// page.js
 
 import { useState } from 'react';
 import SitemapForm from '../components/SitemapForm';
 import html2canvas from 'html2canvas';
 import { jsPDF } from 'jspdf';
 
-export default function HomePage() {
+export default function Home() {
   const [sitemap, setSitemap] = useState([]);
 
   const handleFormSubmit = (pageData) => {
